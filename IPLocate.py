@@ -1,3 +1,5 @@
+#CODED BY NATE J, 2017. Do not use for malicious purposes. 
+#Based for use on Kali Linux, but can be run on any Linux OS with python2 and pygeoip (obtainable via pip)
 import os
 os.system("wget -N -q http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz")
 os.system("gzip -d GeoLiteCity.dat.gz")
